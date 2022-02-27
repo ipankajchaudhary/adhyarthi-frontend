@@ -1,0 +1,84 @@
+{
+  "students": [
+    {
+      "name": "John",
+      "age": 20,
+      "email": "john@email.com",
+      "gender": "male",
+      "phone": 123456789,
+      "marks": {
+        "st1": [80, 83, 86, 80, 85],
+        "st2": [80, 83, 86, 80, 85],
+        "put": [80, 83, 86, 80, 85],
+        "ut": [80, 83, 86, 80, 85]
+      },
+      "extra": {
+        "poem writing": 10,
+        "singing": 8
+      },
+      "sports": {
+        "table tennis": 10
+      }
+    },
+    {
+      "name": "jack",
+      "age": 19,
+      "email": "jack@email.com",
+      "gender": "male",
+      "phone": 9193264124,
+      "marks": {
+        "st1": [80, 83, 86, 80, 85],
+        "st2": [80, 83, 86, 80, 85],
+        "put": [80, 83, 86, 80, 85],
+        "ut": [80, 83, 86, 80, 85]
+      },
+      "extra": {
+        "poem writing": 10,
+        "singing": 8
+      },
+      "sports": {
+        "football": 10
+      }
+    },
+    {
+      "name": "Jane",
+      "age": 20,
+      "email": "jane@email.com",
+      "gender": "female",
+      "phone": 123456789,
+      "marks": {
+        "st1": [80, 83, 86, 80, 85],
+        "st2": [80, 83, 86, 80, 85],
+        "put": [80, 83, 86, 80, 85],
+        "ut": [80, 83, 86, 80, 85]
+      },
+      "extra": {
+        "poem writing": 10,
+        "singing": 8
+      },
+      "sports": {
+        "basket ball": 10
+      }
+    },
+    {
+      "name": "Jacob",
+      "age": 20,
+      "email": "jacob@email.com",
+      "gender": "male",
+      "phone": 9193264124,
+      "marks": {
+        "st1": [80, 83, 86, 80, 85],
+        "st2": [80, 83, 86, 80, 85],
+        "put": [80, 83, 86, 80, 85],
+        "ut": [80, 83, 86, 80, 85]
+      },
+      "extra": {
+        "poem writing": 10,
+        "singing": 8
+      },
+      "sports": {
+        "volley ball": 10
+      }
+    }
+  ]
+}

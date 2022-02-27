@@ -14,81 +14,82 @@ const Login = () => {
   };
   return (
     <>
+      <div className="row ">
+        <div className="col-8  ">
+          <div className="d-flex flex-column">
+            <div className="p-2 ">
+              <div className="d-flex flex-row">
+                <div className="p-2 ">
+                  <div className="logo-img">
+                    <img src={logo} alt="" className="logo-image" />
+                  </div>
+                </div>
+                <div className="px-2 py-3">
+                  {" "}
+                  <h5>Adhyarthi</h5>{" "}
+                </div>
+              </div>
+            </div>
+            <div className="p-2  d-flex justify-content-center">
+              <h2>Sign into Adhyarthi</h2>
+            </div>
+            <div className="p-2  d-flex justify-content-center">
+              (google logo will come here)
+            </div>
+            <div className="p-2   d-flex justify-content-center">
+              <h6>
+                <u>or use your email account :</u>
+              </h6>
+            </div>
+            <div className="p-2   d-flex justify-content-center">
+              <form className="form-signin d-flex flex-column  ">
+                <input
+                  className="inputcredentials d-flex"
+                  type="email"
+                  id="inputEmail"
+                  placeholder="Email"
+                  required=""
+                  autoFocus=""
+                />
 
-    <div class="d-flex bd-highlight">
-    <div class="p-2 flex-fill bd-highlight">Flex item with a lot of content</div>
-    <div class="p-2 flex-fill bd-highlight">Flex item</div>
-    <div class="p-2 flex-fill bd-highlight">Flex item</div>
-  </div>
-      
+                <input
+                  type="password"
+                  id="inputPassword"
+                  placeholder="Password"
+                  required=""
+                />
+                <div className="checkbox mb-3  d-flex justify-content-center">
+                  <label>
+                    <input type="checkbox" value="remember-me" /> Remember me
+                  </label>
+                </div>
+                <div className="p-2  d-flex justify-content-center">
+                  <h6>
+                    <u>Forgot Your Password ?</u>
+                  </h6>
+                </div>
+                <button
+                  className="btn btn-lg btn-primary btn-block"
+                  type="submit"
+                >
+                  Sign in --
+                </button>
+              </form>
+            </div>
+            <div className="p-2  d-flex justify-content-center">
+              <h5>Don't have an account ? Signup</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-4 right-container">
+          <div className="d-flex flex-column">
+            <div><h1>Scan Qr</h1></div>
+            <div>(qr code)</div>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-      
-
-
-
-
-
-
-      
-
-
-
-
-
-      
-
-      
-
-
-      
-
-      
-
-      
-      
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-      
-    {/*<div className="main-container">
+      {/*<div className="main-container">
         <div className="left-container">
           <div className="left-inner-container">
             <div className="logo">
@@ -102,7 +103,7 @@ const Login = () => {
             <div className="use-email-text">or use your email account :</div>
             <div className="email-input">
               <div className="email-logo">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               </div>
               <input
                 type="email"

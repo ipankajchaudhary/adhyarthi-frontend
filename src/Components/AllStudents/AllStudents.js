@@ -1,6 +1,10 @@
 import React from "react";
+// import students from "../../students.json";
 
-const AllStudents = () => {
+const AllStudents = ({students}) => {
+
+  console.table(students);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light  sticky-top" >
